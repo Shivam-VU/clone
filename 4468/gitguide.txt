@@ -1,0 +1,16 @@
+git init 
+git checkout -b registraion_number // Create a new branch with regno_here as the name
+git add -A // add all files to the staging area
+git commit -m "Initial commit" // commit the changes
+git remote add origin git_repo_link_here // add the remote repository
+git push -u origin registration_number // push the changes to the remote repository
+
+Now the project is initialized and pushed to the remote repository
+
+if error occurs, try to run the following commands:
+git remote rm origin
+git remote add origin git_repo_link_here
+
+still error
+
+git push -f origin registration_number

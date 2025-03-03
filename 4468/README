@@ -1,0 +1,60 @@
+# Vignan University Student Registration
+
+This project is a full-stack application for student registration at Vignan University. It consists of a frontend built with React and Vite, and a backend built with Express and MongoDB.
+
+## Project Structure
+
+## Frontend
+
+The frontend is built using React and Vite. It includes the following components:
+
+- `Navbar`: The navigation bar component.
+- `Footer`: The footer component.
+- `StudentRegistration`: The student registration form component.
+
+### Installation
+
+1. Navigate to the `frontend` directory:
+   cd frontend
+2. Install the dependencies:
+    npm install
+
+Configuration
+The frontend configuration is defined in vite.config.js and eslint.config.js.
+
+### Dependencies
+react: React library.
+react-dom: React DOM library.
+react-icons: Library for icons.
+bootstrap: CSS framework.
+
+## Backend
+The backend is built using Express and MongoDB. It includes the following files:
+
+index.js: The main server file.
+FormModel.js: The Mongoose model for the student registration form.
+Installation
+1. Navigate to the backend directory:
+cd backend
+2. Install the dependencies:
+npm install
+
+### Scripts
+npm start: Start the server.
+### Dependencies
+express: Web framework for Node.js.
+mongoose: MongoDB object modeling tool.
+body-parser: Middleware for parsing request bodies.
+cors: Middleware for enabling CORS.
+nodemon: Tool for automatically restarting the server.
+### Running the Project
+1. Start the backend server:
+cd backend
+npm start
+2. Start the frontend development server:
+cd frontend
+npm run dev
+3. Open your browser and navigate to http://localhost:3000 to see the 
+application.
+![screenshot image](image.png)
+
